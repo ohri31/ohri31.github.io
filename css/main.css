@@ -1,0 +1,514 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Crete+Round&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin-ext');
+
+/* general css */
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom:0;
+}
+
+/* CSS code */
+
+/* Nav */
+.nav-edu{
+    height:80px;
+    line-height: 50px;
+    background:#fefefe;
+    border-bottom:1px solid #d5d5d5;
+        -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    box-shadow: 0 0 8px rgba(0,0,0,.09);
+}
+
+.nav-edu img{
+    height:50px;
+}
+
+.nav-items li a{
+    line-height: 50px;
+}
+
+
+/* Jumbotron #s1 */
+.jumbotron{
+    height:auto;
+    margin-bottom:0;
+
+    background:url(../img/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position:relative;
+    
+}
+
+.jumbotron .shadow{
+    position: absolute;
+    z-index:10;
+    top:0;bottom:0;right:0;left:0;
+
+    background: rgba(0,0,0,0.6);
+}
+
+.jumbotron .cover-content{
+    position: relative;
+    z-index:20;
+    color:#fefefe;
+    text-align: center;
+    padding:80px 0;
+}
+
+.jumbotron .cover-content h1{
+    font-family: 'Crete Round', serif;
+}
+
+.jumbotron .cover-content .see-more{
+    display: inline-block;
+    border:1px solid #fefefe;
+    padding:15px 30px;
+    font-size: 16px;
+    color:#fefefe;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.jumbotron .cover-content .see-more:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+/* Heading */
+.heading{
+    text-align: center;
+    
+}
+
+.heading h1{
+    margin:0;
+    font-size: 36px;
+    font-family: 'Crete Round', serif;
+    margin-bottom: 15px;
+}
+
+/* Nesletter subscription */
+.newsletter{
+    background:#eaeaea;
+    border-bottom:1px solid #d5d5d5;
+    padding:60px 0;
+}
+
+.newsletter .nl-input input{
+    height:50px!important;
+}
+
+.newsletter .nl-input .btn-alinged{
+    height:50px!important;
+}
+
+.newsletter .nl-input input[type="checkbox"]{
+    height:auto!important;
+}
+
+/* Programi */
+.programi{
+    background:#f9f9f9;
+    border-top:1px solid #d5d5d5;
+    padding:60px 0;
+}
+
+.programi .program{
+    border:1px solid rgba(133,133,133,.15);
+    background:#fefefe;
+    border-radius:3px;
+    margin-bottom: 30px;
+    display: block;
+    color:#5d5d5d;
+        -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    box-shadow: 0 0 8px rgba(0,0,0,.09);
+}
+
+.programi .program:hover{
+    text-decoration: none;
+}
+
+.programi .program .img-holder{
+    height:200px;
+    overflow: hidden;
+}
+
+.programi .program .img-holder img{
+    width:100%;
+}
+
+.programi .program .info-holder{
+    padding:15px;
+    display: block;
+    min-height:200px; 
+}
+
+.programi .program h2{
+    margin-top:0;
+    font-size:24px;
+    font-weight: 700;
+    font-family: 'Crete Round', serif;
+}
+
+.programi .program .termin-info{
+    padding:15px;
+    font-weight: 700;
+    font-size: 14px;
+    display: block;
+    border-top:1px solid #d5d5d5;
+    text-transform:uppercase;
+    background: #f7f5f5;
+}
+
+/* Treninzi */
+.treninzi{
+    background:#fefefe;
+    border-top:1px solid #d5d5d5;
+    padding:60px 0;
+}
+
+/* Section header */
+.section-header{
+    font-size:20px;
+    text-transform:uppercase;
+}
+
+.section-header h1{
+    font-family: 'Crete Round', serif;
+    font-color:#5d5d5d;
+}
+
+.section-header h1 .small{
+    font-size: 18px;
+}
+
+/* Team */
+.h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    width: 1170px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.team
+{
+    width: 370px;
+    min-height: 100%;
+    border: 1px solid rgba(133,133,133,.15);
+    background-color: #fff;
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    box-shadow: 0 0 8px rgba(0,0,0,.09);
+    float: left;
+    margin-top:120px;
+}
+.teamimg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -80px;
+    width:170px;
+    height:170px;
+    background: #1bbc9d;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+}
+
+.teamsocial
+{
+    height: 48px;
+    background-color: #f7f5f5;
+    position: relative;
+    bottom: -14px;
+    left: 0;
+}
+
+.facebook-team
+{
+    float: left;
+    width: 48px;
+    height: 48px;
+    color: #D1CFCF;
+    display:block;
+    font-size:30px;
+    padding: 7px;
+}
+
+.twitter-team
+{
+    float: left;
+    width: 48px;
+    height: 48px;
+    color: #D1CFCF;
+    display:block;
+    font-size:30px;
+    padding: 7px;
+}
+
+.google-team
+{
+    float: left;
+    width: 48px;
+    height: 48px;
+    color: #D1CFCF;
+    display:block;
+    font-size:30px;
+    padding: 7px;
+}
+
+.pinterest-team
+{
+    float: left;
+    width: 48px;
+    height: 48px;
+    color: #D1CFCF;
+    display:block;
+    font-size:30px;
+    padding: 7px;
+}
+
+.facebook-team:hover
+{
+    color: #3B5998;
+}
+
+.twitter-team:hover
+{
+    color: #29B3E1;
+}
+
+.google-team:hover
+{
+    color: #DE5845;
+}
+
+.pinterest-team:hover
+{
+    color: #C51C23;
+}
+
+.content-slider{
+    overflow:visible!important;
+}
+
+.segmenti{
+    padding:60px 0;
+}
+
+.segment{
+     border:1px solid rgba(133,133,133,.15);
+    position: relative;
+    border-radius:3px;
+    margin-bottom: 30px;
+    display: block;
+    color:#5d5d5d;
+        -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+    box-shadow: 0 0 8px rgba(0,0,0,.09);
+    height:300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;    
+}
+
+.segment:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.segment:hover > .shadow{
+    background:rgba(0,0,0,0.8);
+}
+
+.segment .shadow{
+    position: absolute;
+    z-index:2;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+}
+
+.segment .info-holder{
+    position: absolute;
+    z-index:5;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    padding:30px 15px;
+    color:#fefefe;
+    text-align: center;
+
+    vertical-align: middle;
+}
+
+.segment .info-holder h2{
+    font-size:36px;
+}
+
+.segment .info-holder .desc{
+    opacity: 0.8;
+}
+
+/* social media */
+.social-media{
+    padding:60px 0;
+    background:#f9f9f9;
+    border-top:1px solid #d5d5d5;
+}
+
+.social-media .post{
+    border-bottom:1px solid #d5d5d5;
+    display: block;
+    width:100%;
+}
+
+.social-media .post .logo{
+    width:10%;
+    padding:15px;
+    float:left;
+    font-size:36px;
+    text-align:center;
+}
+
+.social-media .post .title{
+    width:90%;
+    padding:15px;
+    float:left;
+    font-size:18px;
+    line-height: 52px;
+}
+
+.social-media .post .title a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.social-media .social-block{
+    height:120px;
+    padding:15px;
+    line-height: 90px;
+    text-align:center;
+    color:#fefefe;
+    background:#d5d5d5;
+    margin-bottom:30px;
+    display: block;
+}
+
+.social-media .social-block:hover{
+    text-decoration:none;
+}
+
+.facebook-block{
+    background: #3b5998!important;
+}
+
+.linkedin-block{
+    background:#0077B5!important;
+}
+
+
+
+/* Footer */
+.footer{
+    background:#1d212b;
+    border-top:1px solid #d5d5d5;
+    padding:30px 0;
+}
+
+.footer .header{
+    display: block;
+    font-size:20px;
+    color:#d5d5d5;
+    border-bottom:1px solid #5d5d5d;
+    margin:15px 0;
+    padding-bottom:15px;
+}
+
+.footer .link-item{
+    display: block;
+    color:#5d5d5d;
+    line-height: 24px;
+}
+
+.footer .link-item:hover{
+    cursor:pointer;
+    opacity:0.6;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    background:#161920;
+    padding:30px 0;
+}
+
+.seminar-header{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.seminar-header h2{
+    margin-top:0;
+    font-family: 'Crete Round', serif;
+}
+
+
+.small-heading{
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom:10px;
+
+}
+
+.icon-desc{
+    font-size: 64px;
+    text-align: center;
+}
+
+.seminar-price{
+    font-size: 42px;
+}
+
+.prijavi-se{
+    width: 100%;
+    height: 60px;
+    line-height: 45px;
+}
+
+.forma-prijava{
+    padding-bottom:60px;
+}
+
+.akademija-info .paragraf{
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin:15px 0;
+}
